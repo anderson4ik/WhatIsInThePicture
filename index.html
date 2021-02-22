@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>What is in the picture?</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+    <header>
+        <h1 class="name">What is in the picture?</h1>
+    </header>
+
+    <div class="image" title="select the correct option">
+        <img id="1" class="image1 hidden" src="images/1.jpg" alt="image">
+        <img id="2" class="image2 hidden" src="images/2.jpg" alt="image">
+        <img id="3" class="image3 hidden" src="images/3.jpg" alt="image">
+        <img id="4" class="image4 hidden" src="images/4.jpg" alt="image">
+        <img id="5" class="image5 hidden" src="images/5.jpg" alt="image">
+    </div>
+
+    <div>
+        <button id="b0" class="button" onclick="checkAnswer(id)">
+
+        </button>
+    </div>
+
+    <div>
+        <button id="b1" class="button" onclick="checkAnswer(id)">
+
+        </button>
+    </div>
+
+    <div class="score">
+        <p id="sc1" class="sc hidden">Your score is: <strong id="sc"></strong></p>
+    </div>
+
+    <div>
+        <button class="restart" onclick="restart()">
+            <img id="b3" class="button3 hidden" src="images/restart.jpg" alt="image">
+        </button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

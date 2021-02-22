@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightcoral;
+}
+
+.image .hidden {
+    display: none;
+} 
+
+.image {
+    display: block;
+    margin: auto;
+    width: 70%;
+} 
+
+h1 {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    display: block;
+    font-size: 20px;
+    background: khaki;
+    margin: 15px auto 15px auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 12px;
+    position: relative;
+}
+
+.restart .hidden {
+    display: none;
+    
+   
+}
+
+.restart {
+    display: block;
+    margin: 15px auto 15px auto;
+    background: lightcoral;
+}
+
+.score .hidden {
+    display: none;
+}
+
+.score {
+    display: block;
+    
+}
+
+p #sc1 {
+    border: 1px solid red;
+    background: #FF69B4;
+    margin: 35px auto;
+    padding: 10px;
+    height: 40px;
+    width: 33.33%;
+    font-size: 20px;
+}
